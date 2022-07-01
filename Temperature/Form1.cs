@@ -19,16 +19,36 @@ namespace Temperature
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.Text == string.Empty;
-            textBox2.Text == string.Empty;
-            textBox3.Text == string.Empty;
-            double tc,tk,tf;
-
-            tc = double.Parse(textBox1.Text);
-            tk = tc - 273.15;
-            tf = ((tc * 9) / 5) + 32;
-            textBox3.Text = "" + Math.Round(tk, 0);
-            textBox2.Text = "" + Math.Round(tf, 2);
+            string tc,tk,tf;
+            tc = textBox1.Text;
+            tk = textBox3.Text;
+            tf = textBox2.Text;
+            double tc1, tk1, tf1;
+            if (tc !="")
+            {
+                tc1 = double.Parse(textBox1.Text);
+                tk1 = tc1 - 273.15;
+                tf1 = ((tc1 * 9) / 5) + 32;
+                textBox3.Text =  Math.Round(tk1, 0).ToString();
+                textBox2.Text =  Math.Round(tf1,0).ToString();
+            }
+            if (tk != "")
+            {
+                tk1 = double.Parse(textBox3.Text);
+                tc1 = tk1 + 273.15;
+                tf1 = tc1 * 9 / 5 + 32;
+                textBox1.Text =  Math.Round(tc1, 0).ToString();
+                textBox2.Text =  Math.Round(tf1, 0).ToString();
+            }
+            if (tf != "")
+            {
+                tf1 = double.Parse(textBox2.Text);
+                tc1 = ((tf1 - 32) * 5 / 9 );
+                tk1 = tc1 - 273.15;
+                
+                textBox3.Text =  Math.Round(tk1, 0).ToString();
+                textBox1.Text =  Math.Round(tc1, 0).ToString();
+            }
         }
     }
 }
