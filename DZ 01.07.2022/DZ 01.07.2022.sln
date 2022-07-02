@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Picture Box", "..\Picture B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Svetofor", "..\Svetofor\Svetofor.csproj", "{35C24A42-2254-41BE-A5EE-E66EB0957D2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dni nedeli", "Dni nedeli\Dni nedeli.csproj", "{67B8D4F2-A7BE-4F00-B73C-AC1A37A109FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zodiak", "Zodiak\Zodiak.csproj", "{E579B165-51A7-4A5F-942D-AD689824C26E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{35C24A42-2254-41BE-A5EE-E66EB0957D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35C24A42-2254-41BE-A5EE-E66EB0957D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35C24A42-2254-41BE-A5EE-E66EB0957D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67B8D4F2-A7BE-4F00-B73C-AC1A37A109FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67B8D4F2-A7BE-4F00-B73C-AC1A37A109FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67B8D4F2-A7BE-4F00-B73C-AC1A37A109FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67B8D4F2-A7BE-4F00-B73C-AC1A37A109FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E579B165-51A7-4A5F-942D-AD689824C26E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E579B165-51A7-4A5F-942D-AD689824C26E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E579B165-51A7-4A5F-942D-AD689824C26E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E579B165-51A7-4A5F-942D-AD689824C26E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
