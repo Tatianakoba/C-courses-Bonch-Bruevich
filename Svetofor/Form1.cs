@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Задание 4. Создайте проект, имитирующий выбор сигнала светофора.
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
