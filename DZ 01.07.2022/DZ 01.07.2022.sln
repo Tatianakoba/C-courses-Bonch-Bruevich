@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vozrast", "Vozrast\Vozrast.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pigs", "Pigs\Pigs.csproj", "{A09E4805-85F8-4D70-BDD6-F5F106E2D505}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goroskop", "Goroskop\Goroskop.csproj", "{B00B312A-CBFC-4250-B24F-2C40F82903DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{A09E4805-85F8-4D70-BDD6-F5F106E2D505}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A09E4805-85F8-4D70-BDD6-F5F106E2D505}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A09E4805-85F8-4D70-BDD6-F5F106E2D505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B00B312A-CBFC-4250-B24F-2C40F82903DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B00B312A-CBFC-4250-B24F-2C40F82903DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B00B312A-CBFC-4250-B24F-2C40F82903DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B00B312A-CBFC-4250-B24F-2C40F82903DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
