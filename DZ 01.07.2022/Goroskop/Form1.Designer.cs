@@ -36,6 +36,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -66,7 +68,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ForeColor = System.Drawing.SystemColors.Window;
-            this.label3.Location = new System.Drawing.Point(536, 185);
+            this.label3.Location = new System.Drawing.Point(533, 271);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(0, 18);
             this.label3.TabIndex = 4;
@@ -84,6 +86,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.ForeColor = System.Drawing.SystemColors.MenuText;
             this.button1.Location = new System.Drawing.Point(596, 66);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(152, 30);
@@ -100,17 +103,17 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "ОВЕН (с 21 марта по 20 апреля)",
-            "ТЕЛЕЦ (с 21 апреля по 20 мая)",
-            "БЛИЗНЕЦЫ (с 21 мая по 20 июня)",
-            "РАК (с 21 июня по 22 июля)",
-            "ЛЕВ (с 23 июля по 22 августа)",
-            "ДЕВА (с 23 августа по 23 сентября)",
+            "ТЕЛЕЦ (с 21 апреля по 21 мая)",
+            "БЛИЗНЕЦЫ (с 22 мая по 21 июня)",
+            "РАК (с 22 июня по 22 июля)",
+            "ЛЕВ (с 23 июля по 21 августа)",
+            "ДЕВА (с 22 августа по 23 сентября)",
             "ВЕСЫ (с 24 сентября по 23 октября)",
-            "СКОРПИОН (с 24 октября по 21 ноября)",
-            "СТРЕЛЕЦ (с 22 ноября по 21 декабря)",
-            "КОЗЕРОГ (с 22 декабря по 19 января)",
-            "ВОДОЛЕЙ (с 20 января по 18 февраля)",
-            "РЫБЫ (с 19 февраля по 20 марта)"});
+            "СКОРПИОН (с 24 октября по 22 ноября)",
+            "СТРЕЛЕЦ (с 23 ноября по 22 декабря)",
+            "КОЗЕРОГ (с 23 декабря по 20 января)",
+            "ВОДОЛЕЙ (с 21 января по 19 февраля)",
+            "РЫБЫ (с 20 февраля по 20 марта)"});
             this.comboBox1.Location = new System.Drawing.Point(691, 125);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(392, 32);
@@ -126,6 +129,25 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(177, 29);
             this.dateTimePicker1.TabIndex = 8;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.Location = new System.Drawing.Point(702, 192);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(219, 24);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Гороскоп на сегодня";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.Location = new System.Drawing.Point(980, 195);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(0, 24);
+            this.label5.TabIndex = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -133,6 +155,8 @@
             this.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1230, 676);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button1);
@@ -140,6 +164,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.ForeColor = System.Drawing.SystemColors.Window;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Знаки зодиака";
@@ -158,6 +183,8 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
     }
 }
 
