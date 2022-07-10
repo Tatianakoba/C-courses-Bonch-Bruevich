@@ -31,15 +31,18 @@ namespace _4._4
 
             }
             Console.WriteLine($"За {year} год урожай составит {Math.Round(u, 2)} центнеров с Га. Общий урожай {Math.Round(sum, 2)} Га ");
-
+            year = 1;
+            u = 20;
             while (u < 22)
             {
                 year++;
                 u += u * 0.02;
-             
+                
+
             }
             Console.WriteLine($"В {year} году урожайность составит {Math.Round(u,2)} центнера с Га");
-
+            year = 1;
+            s = 100;
             while (s < 120)
             {
                 year++;
